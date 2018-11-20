@@ -1,0 +1,169 @@
+
+#header {
+width:960px;
+height:100px;
+margin:0 auto 0 1PX;
+margin-bottom:1px;
+border-bottom:2px solid #fff;
+border-top:2px solid #fff;
+
+}
+
+#header h2 {
+color :Purple;
+text-shadow:2px 2px white;	
+direction:rtl;
+padding:1px;
+}
+
+#nav {
+width:960px;
+height:40px;
+border-bottom:2px solid #fff;
+}
+#nav ul{
+	list-style-type :none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color: lightblue ;
+	
+}
+
+#nav li{
+	float:left;
+	border-right:1px solid #fff ;
+}
+#nav li:last-child {
+	border-right : none ;
+}
+#nav a {
+
+font-weight:bold;
+display: block;
+float:right;
+padding:10px;
+text-decoration:none;
+background-color:#fff;
+}
+
+#nav a:hover {
+background-color:#fff;
+height:20px;
+}
+
+#content {
+direction:rtl;
+width:675px;
+float:left;
+padding:10px;
+}
+
+#content a{
+text-decoration:none;
+}
+
+#sidebar {
+width:200px;
+float:right;
+margin-bottom:25px;
+}
+
+#sidebar a {
+text-decoration:none;
+}
+
+#sidebar li {
+list-style:none;
+text-align:center;
+}
+
+#sidebar h3{
+text-align:center;
+}
+
+#sidebar img{
+	border-radius: 50%;
+}
+#btn
+{
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}	
+#footer {
+
+clear:both;
+width:960px;
+height:135px;
+border-top:2px solid #fff;
+}
+
+#footer p {
+direction:rtl;
+padding:10px;
+}
+
+#footer p a {
+color :blue;
+text-decoration:none;
+}
+#header h2 {
+direction:left ;
+padding:10px;
+}
+
+#nav a {
+text-align : center ; 
+font-weight:bold;
+display: block;
+float:left;
+padding:10px;
+text-decoration:none;
+background-color: lightblue;
+}
+
+#nav a:hover {
+text-align : center ; 
+background-color:#fff;
+height:20px;
+} 
+
+
+#sidebar a {
+font-weight:bold;
+display: white;
+float:left;
+padding:10px;
+text-decoration:none;
+background-color: #fff;
+
+}
+
+
+#sidebar a:hover {
+background-color:#fff;
+height:20px;
+
+}  
+
+#footer a {
+font-weight:bold;
+display: white;
+float:left;
+padding:10px;
+text-decoration:none;
+}
+
+ /*form {
+border-width:5px;
+border-style:solid;
+border-color : black;
+}*/

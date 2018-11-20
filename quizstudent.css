@@ -1,0 +1,176 @@
+body {
+background:lightblue  ;
+background-position: 50% 65%  ;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: 300px 160px;
+font-family: serif;
+text-align :left ;
+font-size:17px;
+color:Purple;
+margin:0;
+padding:0;
+}
+
+#wrapper {
+width:960px;
+margin:0 auto;
+border-left:2px solid #fff;
+border-right:2px solid #fff;
+}
+
+#header {
+width:960px;
+height:100px;
+margin:0 auto 0 1PX;
+margin-bottom:1px;
+border-bottom:2px solid #fff;
+border-top:2px solid #fff;
+}
+
+#header h2 {
+color :Purple;
+font-size:36px;
+text-shadow:2px 2px white;	
+direction:rtl;
+padding:1px;
+}
+
+#nav {
+width:960px;
+height:40px;
+border-bottom:2px solid #fff;
+}
+
+#nav ul{
+	list-style-type :none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color: #6495ED ;
+	
+}
+
+#nav li{
+	float:left;
+	border-right:1px solid #fff ;
+}
+#nav li:last-child {
+	border-right : none ;
+}
+#nav a {
+
+font-weight:bold;
+display: block;
+float:right;
+padding:14px 16px;
+text-decoration:none;
+background-color:#6495ED;
+}
+
+#nav a:hover {
+background-color:#fff;
+height:20px;
+}
+
+#content {
+direction:rtl;
+width:675px;
+float:left;
+padding:10px;
+}
+
+#content a{
+text-decoration:none;
+}
+
+#sidebar {
+width:200px;
+float:right;
+margin-bottom:25px;
+}
+
+#sidebar a {
+text-decoration:none;
+}
+
+#sidebar li {
+list-style:none;
+text-align:center;
+}
+
+#sidebar h3{
+text-align:center;
+}
+
+#sidebar img{
+	border-radius: 100%;
+}
+#footer {
+clear:both;
+width:960px;
+height:135px;
+border-top:2px solid #fff;
+}
+
+#footer p {
+direction:rtl;
+padding:10px;
+}
+
+#footer p a {
+color :Purple;
+text-decoration:none;
+}
+#header h2 {
+direction:left ;
+padding:10px;
+}
+
+#nav a {
+text-align : center ; 
+font-weight:bold;
+display: block;
+float:left;
+padding:10px;
+text-decoration:none;
+background-color: #6495ED;
+}
+
+#nav a:hover {
+text-align : center ; 
+background-color:#fff;
+height:20px;
+} 
+
+
+#sidebar a {
+font-weight:bold;
+display: white;
+float:left;
+padding:10px;
+text-decoration:none;
+background-color: #fff;
+
+}
+
+
+#sidebar a:hover {
+background-color:#fff;
+height:20px;
+
+}  
+
+#footer a {
+font-weight:bold;
+display: white;
+float:left;
+padding:10px;
+text-decoration:none;
+}
+
+ /*form {
+border-width:5px;
+border-style:solid;
+border-color : black;
+}*/
